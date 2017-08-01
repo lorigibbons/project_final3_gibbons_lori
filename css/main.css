@@ -414,7 +414,7 @@ footer h2 {
     color: #9a9e08;
 }
 
-footer img:nth-of-type(1) {
+.footer-chop-one {
     width: 20%;
     max-width: 200px;
     float: left;
@@ -424,12 +424,12 @@ footer img:nth-of-type(1) {
     transform: rotate(90deg);
 }
 
-footer img:nth-of-type(2) {
+.footer-chop-two {
     display: none;
     width: 0%;
 }
 
-footer img:nth-of-type(3) {
+.footer-chop-three {
     display: none;
     width: 0%;
     -ms-transform: rotate(180deg); /* IE 9 */
@@ -437,7 +437,7 @@ footer img:nth-of-type(3) {
     transform: rotate(180deg);
 }
 
-footer img:nth-of-type(4) {
+.footer-chop-four {
     width: 20%;
     max-width: 200px;
     float: right;
@@ -445,6 +445,20 @@ footer img:nth-of-type(4) {
     -ms-transform: rotate(90deg); /* IE 9 */
     -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
     transform: rotate(90deg);
+}
+.social-media-container {
+    clear: both;
+    text-align: center;
+}
+
+.social-media {
+    display: inline;
+    width: 33%;
+}
+
+.sm-logo {
+    width: 17%;
+    margin: 0 3%;
 }
 
 /* WIGGLER https://harrybailey.com/2011/09/css3-element-wiggle-with-keyframes/ */
@@ -504,6 +518,9 @@ footer img:nth-of-type(4) {
     .image-gallery img {
         width: 70%;
     }
+    .sm-logo {
+        width: 10%;
+    }
 }
 @media (min-width: 615px) {
     .contactUs h2, .reservations h2 {
@@ -549,6 +566,9 @@ footer img:nth-of-type(4) {
     ul {
         text-align: center;
     }
+    .sm-logo {
+        width: 6%;
+    }
 }
 @media (min-width: 900px) {
     iframe:nth-of-type(1) {
@@ -566,20 +586,23 @@ footer img:nth-of-type(4) {
     }
 }
 @media (min-width: 1000px) {
-    footer img:nth-of-type(2) {
+    .footer-chop-two {
         display: block;
         position: absolute;
         width: 10%;
         max-width: 200px;
         margin: 2% 20%;
     }
-    footer img:nth-of-type(3) {
+    .footer-chop-three {
         display: block;
         position: absolute;
         width: 10%;
         max-width: 200px;
         float: right;
         margin: 2% 60%;
+    }
+    .sm-logo {
+        width: 4%;
     }
 }
 @media (min-width: 1600px) {
