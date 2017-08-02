@@ -20,7 +20,7 @@ $(document).ready(function () {
     //Backstretch Plugin
     //Second of the two required to use
     //You will see this in the background of the pages
-    $.backstretch('https://www.xmple.com/wallpaper/linear-gradient-grey-7680x4320-c2-696969-d3d3d3-a-270-f-14.svg');
+    $.backstretch('http://pre07.deviantart.net/27c6/th/pre/i/2014/234/6/e/sushi_dreams_part_1_and_2_by_ljamal-d7wa14l.jpg');
 
     //Custom JQuery
     //This code will make paragraph text in about page red on mouseover

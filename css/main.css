@@ -78,6 +78,7 @@ div {
 #sitecontainer {
     max-width: 1300px;
     margin: auto;
+    background-color: rgba(219, 219, 218, 0.9);
 }
 
 /* CLEAR FIX */
@@ -253,10 +254,6 @@ time {
 /* SECTION  4.0 ----------------------------- *
 /
 /* HEADER STYLING ----------------------------- */
-/*html {
-    background-color: #dbdbda;
-}*/
-
 /* Parallax instructions:
 https://www.w3schools.com/howto/howto_css_parallax.asp */
 
