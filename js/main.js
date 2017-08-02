@@ -1,4 +1,4 @@
-//JQuery Code Start
+//START JQUERY CODE
 $(document).ready(function () {
     //Top to Bottom Plugin, Elevator
     //http://www.jqueryscript.net/animation/jQuery-Plugin-For-Scroll-To-Top-Bottom-Buttons-elevator.html
@@ -15,6 +15,7 @@ $(document).ready(function () {
     $('.tooltip').tooltipster({
         animation: 'swing',
         maxWidth: 180
+    });
 
     //Backstretch Plugin
     //Second of the two required to use
@@ -22,11 +23,11 @@ $(document).ready(function () {
 
     //Custom JQuery
     //This code will make paragraph text in about page red on mouseover
-    $('#test').mouseover(function () {
-        $('h3').addClass('onHoverRed');
+    $('.about-container p').mouseover(function () {
+        $(this).addClass('onHoverRed');
     });
-    $('#test').mouseleave(function () {
-        $('h3').removeClass('onHoverRed');
+    $('.about-container p').mouseleave(function () {
+        $(this).removeClass('onHoverRed');
     });
 
     // Custom JQuery
@@ -41,6 +42,7 @@ $(document).ready(function () {
     );
 });
 
+//START JAVASCRIPT CODE
 //Custom Javascript Code
 //This should flip between two images upon hover of image in header in contact page
 var phoneImage = document.getElementById('monsterPhonePic');
