@@ -4,7 +4,7 @@ var phoneImage = document.getElementById('monsterPhonePic');
 
 var phoneImageWithFood = document.getElementById('monsterPhonePicWithFood');
 
-phoneImage.addEventListener('mouseover', function () {
+phoneImage.addEventListener('mouseover', function() {
     phoneImage.className = 'hide';
     phoneImageWithFood.className = 'show';
 });
@@ -14,7 +14,7 @@ phoneImageWithFood.addEventListener('mouseleave', function () {
 });
 
 //JQuery Code Start
-$(document).ready(function () {
+$(document).ready(function() {
     //Top to Bottom Plugin, Elevator
     //http://www.jqueryscript.net/animation/jQuery-Plugin-For-Scroll-To-Top-Bottom-Buttons-elevator.html
     $.elevator({
@@ -48,10 +48,10 @@ $(document).ready(function () {
 
     //Custom JQuery
     //This code will make paragraph text in about page red on mouseover
-    $('#test').mouseover(function () {
+    $('#test').mouseover(function() {
         $('h3').addClass('onHoverRed');
     });
-    $('#test').mouseleave(function () {
+    $('#test').mouseleave(function() {
         $('h3').removeClass('onHoverRed');
     });
 
