@@ -1,18 +1,3 @@
-//Custom Javascript Code
-//This should flip between two images upon hover of image in header in contact page
-var phoneImage = document.getElementById('monsterPhonePic');
-
-var phoneImageWithFood = document.getElementById('monsterPhonePicWithFood');
-
-phoneImage.addEventListener('mouseover', function() {
-    phoneImage.className = 'hide';
-    phoneImageWithFood.className = 'show';
-});
-phoneImageWithFood.addEventListener('mouseleave', function () {
-    phoneImage.className = 'show';
-    phoneImageWithFood.className = 'hide';
-});
-
 //JQuery Code Start
 $(document).ready(function() {
     //Top to Bottom Plugin, Elevator
@@ -68,4 +53,17 @@ $(document).ready(function() {
              $( 'h3' ).find( "span:last" ).remove();
         ) {}
     );
+});
+
+//Custom Javascript Code
+//This should flip between two images upon hover of image in header in contact page
+var phoneImage = document.getElementById('monsterPhonePic');
+var phoneImageWithFood = document.getElementById('monsterPhonePicWithFood');
+phoneImage.addEventListener('mouseover', function() {
+    phoneImage.className = 'hide';
+    phoneImageWithFood.className = 'show';
+});
+phoneImageWithFood.addEventListener('mouseleave', function () {
+    phoneImage.className = 'show';
+    phoneImageWithFood.className = 'hide';
 });
