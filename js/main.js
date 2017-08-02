@@ -19,7 +19,8 @@ $(document).ready(function () {
 
     //Backstretch Plugin
     //Second of the two required to use
-    $('#background-image').backstretch('http://dl.dropbox.com/u/515046/www/garfield-interior.jpg');
+    //You will see this in the background of the pages
+    $.backstretch('https://www.xmple.com/wallpaper/linear-gradient-grey-7680x4320-c2-696969-d3d3d3-a-270-f-14.svg');
 
     //Custom JQuery
     //This code will make paragraph text in about page red on mouseover
