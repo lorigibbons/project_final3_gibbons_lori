@@ -1,5 +1,5 @@
 # Links
-[My Github link](https://github.com/lorruche/project_final2_gibbons_lori)
+[My Github link](https://github.com/lorruche/project_final3_gibbons_lori)
 
 [My Web Host Link ](http://www.lorigibbons.com/project_final3_gibbons_lori/)
 
@@ -45,3 +45,5 @@ I reviewed the deductions for this project and in the syllabus.
 
 W3C Validator states iframes are an error, but I got this directly from Google
 Maps.
+
+The majority of commits were made on Checkout branch.
