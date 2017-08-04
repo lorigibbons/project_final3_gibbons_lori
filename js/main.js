@@ -21,7 +21,7 @@ $(document).ready(function () {
     //Second of the two required to use
     //You will see this in the background of the page
     $.backstretch('img/bg.jpg');
-    // $.backstretch('http://pre07.deviantart.net/27c6/th/pre/i/2014/234/6/e/sushi_dreams_part_1_and_2_by_ljamal-d7wa14l.jpg');
+    //Cool image I am contemplating for Backstretch image::: $.backstretch('http://pre07.deviantart.net/27c6/th/pre/i/2014/234/6/e/sushi_dreams_part_1_and_2_by_ljamal-d7wa14l.jpg');
 
     //Custom JQuery
     //This code will make paragraph text in about page red on mouseover
