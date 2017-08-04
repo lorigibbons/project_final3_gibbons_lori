@@ -1,10 +1,18 @@
 # Links
 [My Github link](https://github.com/lorruche/project_final2_gibbons_lori)
 
-[My Web Host Link ](http://lorigibbons.com/harryhausensprototype/)
+[My Web Host Link ](http://www.lorigibbons.com/project_final3_gibbons_lori/)
 
-[W3C Validator
-Links](https://validator.w3.org/nu/?doc=http%3A%2F%2Florigibbons.com%2Fharryhausensprototype%2F)
+W3C Validator
+Links
+
+* [Home Page](https://validator.w3.org/nu/?doc=http%3A%2F%2Florigibbons.com%2Fharryhausensprototype%2F)
+* [Home
+Page](https://validator.w3.org/nu/?doc=http%3A%2F%2Florigibbons.com%2Fharryhausensprototype%2F)
+* [Home
+Page](https://validator.w3.org/nu/?doc=http%3A%2F%2Florigibbons.com%2Fharryhausensprototype%2F)
+* [Home
+Page](https://validator.w3.org/nu/?doc=http%3A%2F%2Florigibbons.com%2Fharryhausensprototype%2F)
 
 [HTML5 Outliner link
 ](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Florigibbons.com%2Fharryhausensprototype%2F)
