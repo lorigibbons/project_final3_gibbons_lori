@@ -75,10 +75,14 @@ div {
     margin: 0;
 }
 
-#sitecontainer {
+#site-container {
     max-width: 1300px;
     margin: auto;
     background-color: rgba(219, 219, 218, 0.9);
+}
+
+.full-width-container {
+    width: 100%;
 }
 
 /* CLEAR FIX */
@@ -320,7 +324,6 @@ nav ul li a:hover {
     background-color: transparent;
     color: rgb(255, 255, 250);
 }
-
 
 #sectioncontainer {
     margin: auto;
@@ -608,6 +611,7 @@ footer h2 {
         width: 4%;
     }
 }
+
 @media (min-width: 1600px) {
     .contactUs h2, .reservations h2 {
         font-size: 1.5vw;
