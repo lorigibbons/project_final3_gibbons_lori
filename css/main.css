@@ -244,7 +244,8 @@ h4 {
 }
 
 p,
-time {
+time,
+figcaption {
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
     font-size: 0.9rem;
@@ -371,6 +372,11 @@ input {
 .image-gallery {
     width: 100%;
 }
+
+figcaption {
+    text-align: center;
+}
+
 .about-container img {
     width: 80%;
     padding: 4%;
@@ -538,7 +544,7 @@ footer h2 {
         float: none;
         margin: auto;
     }
-    .image-gallery img {
+    .image-gallery figure {
         float: left;
         width: 50%;
     }
