@@ -317,7 +317,7 @@ nav ul li a:hover {
 /* MENU */
 .menuContainer {
     background-color: rgb(140, 140, 140);
-    color: #9a9e08;
+    color: #cacf1a;
 }
 
 .menuContainer article {
@@ -328,6 +328,7 @@ nav ul li a:hover {
 #sectioncontainer {
     margin: auto;
     padding-top: 15px;
+    width: 100%;
 }
 
 section article {
